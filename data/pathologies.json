@@ -1,0 +1,31 @@
+[{
+	"pathology": "NAC",
+	"display_name": "NAC",
+	"outcomes": {
+		"serotipo": {
+			"denom": "Etiologia.s_pneumoniae",
+			"options": ["s14", "s18c", "s1", "s6B", "s5", "s9V", "s12F", "s7F", "sNT", "s19F", "s6A", "s23F", "s4", "s19A", "s33F", "s3", "s15C", "sOtro"],
+			"display_name": "Serotipo"
+		},
+		"etiologia": {
+			"denom": "participants",
+			"options": ["No growth", "S. pneumoniae", "H Influenzae B", "H Influenzae (non-spec)", "M catarrhalis", "M pneumoniae", "C pneumoniae", "C trachomatis", "T pallidum", "M hominis", "U urealyticum", "S aureus", "St pyogenes", "St alpha", "P_aeruginosa", "Other_bact", "Co-infection Bacterial"],
+			"display_name": "Etiología"
+		},
+		"death": {
+			"denom": "participants",
+			"options": ["death"],
+			"display_name": "Mortalidad"
+		},
+		"length_of_s": {
+			"denom": "studies_count",
+			"options": ["LOS general"],
+			"display_name": "Tiempo de internación"
+		},
+		"incidence": {
+			"denom": "base_pop",
+			"options": ["Duración", "Duración en años", "N con NAC anual"],
+			"display_name": "Incidencia"
+		}
+	}
+}]

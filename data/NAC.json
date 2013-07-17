@@ -1,0 +1,5238 @@
+[
+  {
+    "Pathology": "NAC",
+    "Estudio": "Alvis Guzman 2005 (0 to 23 months)",
+    "Autores": "Alvis Guzman, N.;de la Hoz Restrepo, F.;Higuera, A. B.;Pastor, D.;Di Fabio, J. L.",
+    "Año": 2005,
+    "N con NAC": 64,
+    "Comienzo": "01-01-2001",
+    "Final": "01/12/2001",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "23",
+    "Country": "Colombia",
+    "Age Range": "0 a 23 meses",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "1"
+      },
+      "Tiempo de internación": {
+        "LOS general": "12"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Alvis Guzman 2006",
+    "Autores": "Alvis Guzman, N.;De La Hoz Restrepo, F.;Vivas Consuelo, D.",
+    "Año": 2006,
+    "N con NAC": 64,
+    "Comienzo": "01-07-2001",
+    "Final": "31/12/2002",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Colombia",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Asturias 2003",
+    "Autores": "Asturias, Edwin J.;Soto, Monica;Menendez, Ricardo;Ramirez, Patricia L.;Recinos, Fabio;Gordillo, Remei;Holt, Elizabeth;Halsey, Neal A.",
+    "Año": 2003,
+    "N con NAC": 725,
+    "Comienzo": "01-10-1996",
+    "Final": "31-01-1999",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Guatemala",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "612",
+        "S. pneumoniae": "30",
+        "H Influenzae B": "24",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "21",
+        "St pyogenes": "6",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "7",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "58"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Avila 1990 (1 to 60 months)",
+    "Autores": "Avila, M. M.;Carballal, G.;Salomón, H.;Cerqueiro, M. C.;Catalano, M.;Messad, O. S.;Murtagh, P.;Harisiadi, J.;Ferrero, N.;Weissenbacher, M.",
+    "Año": 1990,
+    "N con NAC": 1230,
+    "Comienzo": "01-06-84",
+    "Final": "01-11-1988",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "60",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "1048",
+        "S. pneumoniae": "71",
+        "H Influenzae B": "21",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": "20",
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "8",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "62",
+        "Co-infection Bacterial": "18"
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Carballal 1992 (1 to 18 months)",
+    "Autores": "Carballal, G.;Mahony, J. B.;Videla, C.;Cerqueiro, C.;Chernesky, M.",
+    "Año": 1992,
+    "N con NAC": 86,
+    "Comienzo": "01-01-1990",
+    "Final": "01/12/1990",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "18",
+    "Country": "Argentina",
+    "Age Range": "0 a 23 meses",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": "15",
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Carvalho 1992 (1 to 144 months)",
+    "Autores": "Carvalho, Márcia Fernanda da C.;Barros, Malena de Lima;Cunha, Antônio José Ledo Alves",
+    "Año": 1992,
+    "N con NAC": 45,
+    "Comienzo": "01-12-1988",
+    "Final": "01/12/1989",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "144",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "23",
+        "S. pneumoniae": "2",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": "1",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "3",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Centritto 1990 (7 to 108 months)",
+    "Autores": "Centritto, Carmela;Sánchez, Eleonora;Tata, Guido;Linares, Rubén;Gutierrez, Naiza",
+    "Año": 1990,
+    "N con NAC": 33,
+    "Comienzo": "01-03-1986",
+    "Final": "01/06/1987",
+    "Edad inferior (m)": "7",
+    "Edad superior (m)": "108",
+    "Country": "Venezuela",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "9",
+        "S. pneumoniae": "16",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "5",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "3",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Cespedes 2004",
+    "Autores": "Cespedes Londono, J.;Fernandez Sarmiento, J.;Baron Puentes, O.;Villa Pertuz, F.;Pieschacon, P.",
+    "Año": 2004,
+    "N con NAC": 202,
+    "Comienzo": "01-01-2000",
+    "Final": "30/12/2004",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": 0,
+    "Country": "Colombia",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "12",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": "4",
+        "C pneumoniae": 0,
+        "C trachomatis": "3",
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "17",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "4",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Chavez 1999",
+    "Autores": "Chavez A, Rauch E",
+    "Año": 1999,
+    "N con NAC": 109,
+    "Comienzo": "01-01-1991",
+    "Final": "31/12/1996",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": "22"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Cirino 2004",
+    "Autores": "Cirino, Luís Marcelo Inaco;Gomes, Filumena Maria da Silva;Batista, Bernardo Nogueira",
+    "Año": 2004,
+    "N con NAC": 115,
+    "Comienzo": "01-11-1986",
+    "Final": "01/11/1996",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "45",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "4",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "11",
+        "St pyogenes": "4",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "9",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ferrari 2002",
+    "Autores": "Ferrari, A. M.;Pirez, M. C.;Ferreira, A.;Rubio, I.;Montano, A.;Lojo, R.;Palomino, G.;Giachetto, G.;Galiana, A.;Sarachaga, M. J.;Mercado, S.;Martinez, O.;Alberti, M.;Chiparelli, H.;Mateos, S.;Varela, A.;Sandin, D.;Montenegro, C.;Algorta, G.;Albini, M.",
+    "Año": 2002,
+    "N con NAC": 307,
+    "Comienzo": "19-05-1999",
+    "Final": "19-09-1999",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Uruguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "33",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": "2",
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "1"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ferrero 2000 (0 to 119 months)",
+    "Autores": "Ferrero, Fernando C.",
+    "Año": 2000,
+    "N con NAC": 197,
+    "Comienzo": "01-06-1994",
+    "Final": "31/05/1997",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "119",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": "30",
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ferro 2005 (60 to 168 months)",
+    "Autores": "Iraola Ferro, M. Inés;Estevan Collazo, Miguel A.;Bueno Pérez, Silvia M.;Calegari Costa, Ana M.;Lapides Kancer, Ma Cristina;Souto, Guadalupe;Barrios, Graciela;Mesa, Teresa;Hortal Palma, Ma Haydee",
+    "Año": 2005,
+    "N con NAC": 362,
+    "Comienzo": "01-06-2001",
+    "Final": "31/05/2004",
+    "Edad inferior (m)": "60",
+    "Edad superior (m)": "168",
+    "Country": "Uruguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "5"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Freitas 2006",
+    "Autores": "Freitas, M.;Castelo, A.;Petty, G.;Gomes, C. E.;Carvalho, E.",
+    "Año": 2006,
+    "N con NAC": 100,
+    "Comienzo": 0,
+    "Final": 0,
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "18",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "2",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "2",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "1",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "García 1988",
+    "Autores": "García, Julio;Kogan, Ricardo;Vicente Suárez, Manuela;Carrasco, Leticia;Guirardo, Guido;Maldonado B, Aurora;Ulloa F, María Teresa;Silva, Iván;Montenegro, Katherine;Corrid, Carmen",
+    "Año": 1988,
+    "N con NAC": 9,
+    "Comienzo": "01-01-1984",
+    "Final": "31/12/1984",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "4",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "1",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "2",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "3",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "García 1988",
+    "Autores": "García, Julio;Kogan, Ricardo;Vicente Suárez, Manuela;Carrasco, Leticia;Guirardo, Guido;Maldonado B, Aurora;Ulloa F, María Teresa;Silva, Iván;Montenegro, Katherine;Corrid, Carmen",
+    "Año": 1988,
+    "N con NAC": 5,
+    "Comienzo": "01-01-1984",
+    "Final": "31/12/1984",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "2",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "2",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "3",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "García 1988",
+    "Autores": "García, Julio;Kogan, Ricardo;Vicente Suárez, Manuela;Carrasco, Leticia;Guirardo, Guido;Maldonado B, Aurora;Ulloa F, María Teresa;Silva, Iván;Montenegro, Katherine;Corrid, Carmen",
+    "Año": 1988,
+    "N con NAC": 13,
+    "Comienzo": "01-01-1984",
+    "Final": "31/12/1984",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "2",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "3",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "10",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Garcia 1991 (1 to 71 months)",
+    "Autores": "Garcia Ramos, E.;Pizarro Suarez, E.;Sapiain, L. A.;Lugo de la Fuente, G.",
+    "Año": 1991,
+    "N con NAC": 123,
+    "Comienzo": 0,
+    "Final": 0,
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "71",
+    "Country": "México",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "21",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "18",
+        "M catarrhalis": 0,
+        "M pneumoniae": "2",
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": "1",
+        "U urealyticum": 0,
+        "S aureus": "27",
+        "St pyogenes": "12",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "53",
+        "Co-infection Bacterial": "24"
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Gentile 2008 (0 to 60 months)",
+    "Autores": "Gentile A. ; Bakir J. ; Fernandez M. ; Bialorus L. ; Terluk M. ; Gil C. ; Regueira M. ; Gentile F. ; García S.",
+    "Año": 2008,
+    "N con NAC": 611,
+    "Comienzo": "01-11-2002",
+    "Final": "31/10/2005",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "59",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "8",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "6",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "2",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "1"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 4,
+        "s18c": 0,
+        "s1": 1,
+        "s6B": 0,
+        "s5": 1,
+        "s9V": 0,
+        "s12F": 0,
+        "s7F": 1,
+        "sNT": 0,
+        "s19F": 0,
+        "s6A": 1,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": 0,
+        "s3": 0,
+        "s15C": 0,
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "GMN Grupo Multifuncional de Neumonías 2003 (1 to 59 months)",
+    "Autores": "GMN Grupo Multifuncional de Neumonías",
+    "Año": 2003,
+    "N con NAC": 1210,
+    "Comienzo": 0,
+    "Final": 0,
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "59",
+    "Country": "Perú",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "271",
+        "S. pneumoniae": "5",
+        "H Influenzae B": "3",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Gudiel 1994",
+    "Autores": "Gudiel Hermoza, Jorge",
+    "Año": 1994,
+    "N con NAC": 238,
+    "Comienzo": "01-01-1990",
+    "Final": "31/12/1992",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Perú",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": "10"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Gutiérrez 1989 (0 to 84 months)",
+    "Autores": "Gutiérrez Trujillo, Gonzalo;Martínez González, María del Carmen;Guiscafré Gallardo, Héctor;Gómez, Georgina Peniche Alfredo;Munoz, Onofre",
+    "Año": 1989,
+    "N con NAC": 31,
+    "Comienzo": "01-03-1982",
+    "Final": "28/02/1983",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "84",
+    "Country": "México",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "3"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Guzman 2005",
+    "Autores": "Guzman, N. A.;De La Hoz Restrepo, F.;Higuera, A. B.;Pastor, D.;Di Fabio, J. L.",
+    "Año": 2005,
+    "N con NAC": 128,
+    "Comienzo": "01-07-2001",
+    "Final": "01/01/2003",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Colombia",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "1"
+      },
+      "Tiempo de internación": {
+        "LOS general": "12"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Hortal 1994 (1 to 60 months)",
+    "Autores": "Hortal, M.;Suarez, A.;Deleon, C.;Estevan, M.;Mogdasy, M. C.;Russi, J. C.;Contera, M.;Meny, M.",
+    "Año": 1994,
+    "N con NAC": 541,
+    "Comienzo": "01-05-1987",
+    "Final": "31/10/1990",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "60",
+    "Country": "Uruguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "74",
+        "S. pneumoniae": "48",
+        "H Influenzae B": "14",
+        "H Influenzae (non-spec)": "1",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": "4",
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "6",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "1",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "16"
+      },
+      "Tiempo de internación": {
+        "LOS general": "15"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Kunyoshi 2006 (1 to 121 months)",
+    "Autores": "Kunyoshi, V.;Cataneo, D. C.;Cataneo, A. J.",
+    "Año": 2006,
+    "N con NAC": 121,
+    "Comienzo": 0,
+    "Final": 0,
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "121",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "61",
+        "S. pneumoniae": "22",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "12",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "8",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Kunyoshi 2006 (1 to 121 months)",
+    "Autores": "Kunyoshi, V.;Cataneo, D. C.;Cataneo, A. J.",
+    "Año": 2006,
+    "N con NAC": 394,
+    "Comienzo": 0,
+    "Final": 0,
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "121",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Levy 1988 (0 to 6 months)",
+    "Autores": "Levy F, Alberto;Luna, Carlos Fernando;Flamini, Roberto",
+    "Año": 1988,
+    "N con NAC": 10,
+    "Comienzo": "01-01-1980",
+    "Final": "31/12/1985",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "6",
+    "Country": "Colombia",
+    "Age Range": "Todos",
+    "Limite de edad sup": "0",
+    "Limite de edad inf": "6",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "2",
+        "S. pneumoniae": "0",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "0",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "6",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "0",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Levy 1988 (13 to 24 months)",
+    "Autores": "Levy F, Alberto;Luna, Carlos Fernando;Flamini, Roberto",
+    "Año": 1988,
+    "N con NAC": 23,
+    "Comienzo": "01-01-1980",
+    "Final": "31/12/1985",
+    "Edad inferior (m)": "13",
+    "Edad superior (m)": "24",
+    "Country": "Colombia",
+    "Age Range": "11 a 23 meses",
+    "Limite de edad sup": "13",
+    "Limite de edad inf": "24",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "5",
+        "S. pneumoniae": "3",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "4",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "5",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "3",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "1"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Levy 1988 (25 to 60 months)",
+    "Autores": "Levy F, Alberto;Luna, Carlos Fernando;Flamini, Roberto",
+    "Año": 1988,
+    "N con NAC": 13,
+    "Comienzo": "01-01-1980",
+    "Final": "31/12/1985",
+    "Edad inferior (m)": "25",
+    "Edad superior (m)": "60",
+    "Country": "Colombia",
+    "Age Range": "24 a 59 meses",
+    "Limite de edad sup": "25",
+    "Limite de edad inf": "60",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "9",
+        "S. pneumoniae": "0",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "1",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "2",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "1",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Levy 1988 (7 to 12 months)",
+    "Autores": "Levy F, Alberto;Luna, Carlos Fernando;Flamini, Roberto",
+    "Año": 1988,
+    "N con NAC": 9,
+    "Comienzo": "01-01-1980",
+    "Final": "31/12/1985",
+    "Edad inferior (m)": "7",
+    "Edad superior (m)": "12",
+    "Country": "Colombia",
+    "Age Range": "<11 meses",
+    "Limite de edad sup": "7",
+    "Limite de edad inf": "12",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "3",
+        "S. pneumoniae": "3",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "0",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "3",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "0",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Martinez 2000 (1 to 168 months)",
+    "Autores": "Martinez Tagle, M.;Kogan, R.;Rojas, P.;Rubilar, L.;Vidal, R.;Paya, E.",
+    "Año": 2000,
+    "N con NAC": 112,
+    "Comienzo": "01-10-1996",
+    "Final": "01/10/1998",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "168",
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": "3",
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Mogdasy 1994 (1 to 60 months)",
+    "Autores": "Mogdasy Seluja, M. Cristina;Camou, Teresa;Fajardo, Claudia;Hortal Palma, M. Haydee",
+    "Año": 1994,
+    "N con NAC": 473,
+    "Comienzo": 0,
+    "Final": 0,
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "60",
+    "Country": "Uruguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "46",
+        "H Influenzae B": "21",
+        "H Influenzae (non-spec)": "1",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "2",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "1",
+        "Co-infection Bacterial": "6"
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Nacul 2005 (6 to 59 months)",
+    "Autores": "Nacul, L. C.;Kirkwood, B. R.;Carneiro, A. C.;Pannuti, C. S.;Magalhaes, M.;Arthur, P.",
+    "Año": 2005,
+    "N con NAC": 472,
+    "Comienzo": "01-06-1994",
+    "Final": "01/06/1995",
+    "Edad inferior (m)": "6",
+    "Edad superior (m)": "59",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "269",
+        "S. pneumoniae": "30",
+        "H Influenzae B": "89",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": "1",
+        "C pneumoniae": "2",
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "9",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "1",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "4"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Nascimiento-Carvalho 2001 ",
+    "Autores": "Nascimento-Carvalho, C. M.;Lopes, A. A.;Gomes, M. D.;Magalhaes, M. P.;Oliveira, J. R.;Vilas-Boas, A. L.;Ferracuti, R.;Brandileone, M. C.;Guerra, M. L.;Alves, N. N.;Athayde, L. A.;Caldas, R. M.;Barberino, M. G.;Duarte, J.;Brandao, M. A.;Rocha, H.;Benguigui",
+    "Año": 2001,
+    "N con NAC": 18,
+    "Comienzo": "01-09-1997",
+    "Final": "01-10-1999",
+    "Edad inferior (m)": "24",
+    "Edad superior (m)": "60",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "18",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 4,
+        "s18c": 0,
+        "s1": 1,
+        "s6B": 3,
+        "s5": 1,
+        "s9V": 0,
+        "s12F": 0,
+        "s7F": 0,
+        "sNT": 0,
+        "s19F": 0,
+        "s6A": 2,
+        "s23F": 1,
+        "s4": 0,
+        "s19A": 2,
+        "s33F": 0,
+        "s3": 0,
+        "s15C": "2",
+        "sOtro": 2
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Nascimiento-Carvalho 2002 (0 to 60 months)",
+    "Autores": "Nascimento-Carvalho, C. M.;Gomes, M. D.;Magalhaes, M. P.;Oliveira, J. R.;Vilas-Boas, A. L.;Ferracuti, R.;Alves, N. N.;Athayde, L. A.;Caldas, R. M.;Barberino, M. G.;Duarte, J.;Brandao, M. A.;Brandileone, M. C.;Guerra, M. L.;Rocha, H.;Benguigui, Y.;Di Fabio",
+    "Año": 2002,
+    "N con NAC": 2246,
+    "Comienzo": "01-09-1997",
+    "Final": "01-10-1999",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "18",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "4",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "8",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "12",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Paz 2001 (9 to 168 months)",
+    "Autores": "Paz, F.;Cespedes, P.;Cuevas, M.;Lecorre, N.;Navarro, H.;Garcia, C.;Zuniga, S.;Alvarez, C.;Sanchez, I.",
+    "Año": 2001,
+    "N con NAC": 49,
+    "Comienzo": "01-01-1985",
+    "Final": "01/07/2000",
+    "Edad inferior (m)": "9",
+    "Edad superior (m)": "168",
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "21",
+        "S. pneumoniae": "17",
+        "H Influenzae B": "2",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "1",
+        "St pyogenes": "1",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": "18"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Pereira 1991 (1 to 168 months)",
+    "Autores": "Pereira, Julio Cesar Rodrigues;Lotufo, Joao Paulo Becker;Oliveira Filho, Joao Fleury;Santos, Marlina dos;Okay, Yasuhito;Ribeiro, Theotonio Victor de Miranda;Raquejo, Henri Inacio Zanezan;Matsumoto, Tokiko Kyomen;Mezzacapa Neto, Braz",
+    "Año": 1991,
+    "N con NAC": 116,
+    "Comienzo": "01-04-1989",
+    "Final": "30/08/1989",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "168",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "70",
+        "S. pneumoniae": "27",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "17",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": "1"
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Pérez 1995  (1 to 60 months)",
+    "Autores": "Pérez, Roberto;Cuevas, Julian;Bojalil, Rossana;Guiscafré, Héctor",
+    "Año": 1995,
+    "N con NAC": 142,
+    "Comienzo": "01-01-1993",
+    "Final": "01/12/1993",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "60",
+    "Country": "México",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "0"
+      },
+      "Tiempo de internación": {
+        "LOS general": "4"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Pinto 2004 (3 to 59 months)",
+    "Autores": "Pinto, K. D.;Maggi, R. R.;Alves, J. G.",
+    "Año": 2004,
+    "N con NAC": 154,
+    "Comienzo": "11-07-2000",
+    "Final": "08/05/2001",
+    "Edad inferior (m)": "3",
+    "Edad superior (m)": "59",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Pirez 2001 (1 to 60 months)",
+    "Autores": "Pirez, M. C.;Martinez, O.;Ferrari, A. M.;Nairac, A.;Montano, A.;Rubio, I.;Sarachaga, M. J.;Brea, S.;Picon, T.;Pinchack, M. C.;Torello, P.;Algorta, G.;Mogdasy, M. C.",
+    "Año": 2001,
+    "N con NAC": 1163,
+    "Comienzo": "01-09-1997",
+    "Final": "01/09/1998",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "60",
+    "Country": "Uruguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "1106",
+        "S. pneumoniae": "51",
+        "H Influenzae B": "3",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "1",
+        "St pyogenes": "1",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "5"
+      },
+      "Tiempo de internación": {
+        "LOS general": "5"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Pírez 2003 (1 to 168 months)",
+    "Autores": "Pírez García, M. Catalina;Berrondo Pomes, Conrado A.;Giacometti Vignolo, Marina L.;Demiguel Arrieta, Magela;Pascale Leglise, Irene H.;Algorta Rusinol, M. Gabriela;Montano Lotito, Alicia A.;Ferrari Castilla, Ana María",
+    "Año": 2003,
+    "N con NAC": 697,
+    "Comienzo": "19-05-1999",
+    "Final": "18/05/2000",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "168",
+    "Country": "Uruguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "619",
+        "S. pneumoniae": "76",
+        "H Influenzae B": "1",
+        "H Influenzae (non-spec)": "1",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": "1",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "8"
+      },
+      "Tiempo de internación": {
+        "LOS general": "11"
+      },
+      "serotipo": {
+        "s14": 10,
+        "s18c": 0,
+        "s1": 9,
+        "s6B": 3,
+        "s5": 20,
+        "s9V": 1,
+        "s12F": 0,
+        "s7F": 4,
+        "sNT": "21",
+        "s19F": 0,
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 2,
+        "s33F": 0,
+        "s3": 3,
+        "s15C": 0,
+        "sOtro": 3
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Requejo 1994 ",
+    "Autores": "Requejo, Henry I. Z.;Alkmin, Maria das Gracas;Almeida, Regina G.;Casagrande, Silvana T.;Cocozza, Ana Maria;Lotufo, Joao Paulo Becker;Waetge, Aurora Rosaria Pagliara;Rodrigues, Joaquim Carlos",
+    "Año": 1994,
+    "N con NAC": 442,
+    "Comienzo": "01-01-1989",
+    "Final": "01/12/1993",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "378",
+        "S. pneumoniae": "40",
+        "H Influenzae B": "21",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "3",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Requejo 2003",
+    "Autores": "Requejo, H. I.;Cocoza, A. M.",
+    "Año": 2003,
+    "N con NAC": 265,
+    "Comienzo": "01-01-2002",
+    "Final": "01/12/2002",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "206",
+        "S. pneumoniae": "40",
+        "H Influenzae B": "12",
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "6",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Rey 2002 (2 to 59 months)",
+    "Autores": "Rey, L. C.;Wolf, B.;Moreira, J. L.;Milatovic, D.;Verhoef, J.;Farhat, C. K.",
+    "Año": 2002,
+    "N con NAC": 482,
+    "Comienzo": "01-03-1998",
+    "Final": "01/12/1998",
+    "Edad inferior (m)": "2",
+    "Edad superior (m)": "59",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "241",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 21,
+        "s18c": 0,
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": 0,
+        "s7F": 0,
+        "sNT": 0,
+        "s19F": 0,
+        "s6A": 76,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 40,
+        "s33F": 0,
+        "s3": 0,
+        "s15C": 0,
+        "sOtro": 49
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ricetto 2003 ",
+    "Autores": "Riccetto, Adriana Gut Lopes;Zambom, Mariana Porto;Morcillo, André Moreno",
+    "Año": 2003,
+    "N con NAC": 509,
+    "Comienzo": 0,
+    "Final": 0,
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Rodrigues 1991 (0 to 174 months)",
+    "Autores": "Rodrigues Pereira",
+    "Año": 1991,
+    "N con NAC": 116,
+    "Comienzo": "01-04-1989",
+    "Final": "01/08/2001",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "174",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "70",
+        "S. pneumoniae": "27",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "17",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": "0",
+        "P_aeruginosa": "0",
+        "Other_bact": 0,
+        "Co-infection Bacterial": "1"
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Rodriguez 2005 (2 to 59 months)",
+    "Autores": "Rodriguez, A.;Hamer, D. H.;Rivera, J.;Acosta, M.;Salgado, G.;Gordillo, M.;Cabezas, M.;Naranjo-Pinto, C.;Leguisamo, J.;Gomez, D.;Fuenmayor, G.;Jativa, E.;Guaman, G.;Estrella, B.;Sempertegui, F.",
+    "Año": 2005,
+    "N con NAC": 287,
+    "Comienzo": "01-05-2002",
+    "Final": "01/06/2004",
+    "Edad inferior (m)": "2",
+    "Edad superior (m)": "59",
+    "Country": "Ecuador",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "5"
+      },
+      "Tiempo de internación": {
+        "LOS general": "5"
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Rowensztein 2007 (1 to 120 months)",
+    "Autores": "Rowensztein, Hérnan;Demirdjian, Graciela;Rodríguez, Josefa",
+    "Año": 2007,
+    "N con NAC": 36,
+    "Comienzo": "01-06-2004",
+    "Final": "31/08/2004",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "120",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": 0
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ruvinsky Concordia (12 to 23 months)",
+    "Autores": "Ruvinsky Concordia",
+    "Año": 0,
+    "N con NAC": 332,
+    "Comienzo": "01-11-2002",
+    "Final": "30-10-2004",
+    "Edad inferior (m)": "12",
+    "Edad superior (m)": "23",
+    "Country": "Argentina",
+    "Age Range": "11 a 23 meses",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "166",
+        "S. pneumoniae": "13",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "1",
+        "St pyogenes": "1",
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "1"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 1,
+        "s18c": 0,
+        "s1": 1,
+        "s6B": 2,
+        "s5": 6,
+        "s9V": 0,
+        "s12F": "1",
+        "s7F": 2,
+        "sNT": 0,
+        "s19F": 0,
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": 0,
+        "s3": 0,
+        "s15C": 0,
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ruvinsky Paraná (24 to 59 months)",
+    "Autores": "Ruvinsky Paraná",
+    "Año": 0,
+    "N con NAC": 390,
+    "Comienzo": "01-11-2002",
+    "Final": "30-10-2004",
+    "Edad inferior (m)": "24",
+    "Edad superior (m)": "59",
+    "Country": "Argentina",
+    "Age Range": "24 a 59 meses",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "233",
+        "S. pneumoniae": "10",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": "2",
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": "2",
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "3"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 3,
+        "s18c": 0,
+        "s1": 0,
+        "s6B": 2,
+        "s5": 1,
+        "s9V": 0,
+        "s12F": 0,
+        "s7F": 0,
+        "sNT": "1",
+        "s19F": 0,
+        "s6A": 0,
+        "s23F": 1,
+        "s4": 0,
+        "s19A": 1,
+        "s33F": 0,
+        "s3": 0,
+        "s15C": 0,
+        "sOtro": 1
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sáez-Llorens 1998 (36 to 48 months)",
+    "Autores": "Sáez-Llorens, X.;Castaño, E.;Wubbel, L.;Castrejón, M. M.;de Morales, I.;Vallarino, D.;de Atencio, I.;Muñiz, L.;Olsen, K.;McCracken, G. H.",
+    "Año": 1998,
+    "N con NAC": 16,
+    "Comienzo": "01-02-1996",
+    "Final": "01/12/1997",
+    "Edad inferior (m)": "36",
+    "Edad superior (m)": "48",
+    "Country": "Panamá",
+    "Age Range": "25 a 59 meses",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": "2",
+        "C pneumoniae": "1",
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "0"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sáez-Llorens 1998 (6 to 24 months)",
+    "Autores": "Sáez-Llorens, X.;Castaño, E.;Wubbel, L.;Castrejón, M. M.;de Morales, I.;Vallarino, D.;de Atencio, I.;Muñiz, L.;Olsen, K.;McCracken, G. H.",
+    "Año": 1998,
+    "N con NAC": 126,
+    "Comienzo": "01-02-1996",
+    "Final": "01/12/1997",
+    "Edad inferior (m)": "6",
+    "Edad superior (m)": "24",
+    "Country": "Panamá",
+    "Age Range": "0 a 23 meses",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": "6",
+        "C pneumoniae": "5",
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "0"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sáez-Llorens 1998 (60 to 96 months)",
+    "Autores": "Sáez-Llorens, X.;Castaño, E.;Wubbel, L.;Castrejón, M. M.;de Morales, I.;Vallarino, D.;de Atencio, I.;Muñiz, L.;Olsen, K.;McCracken, G. H.",
+    "Año": 1998,
+    "N con NAC": 15,
+    "Comienzo": "01-02-1996",
+    "Final": "01/12/1997",
+    "Edad inferior (m)": "60",
+    "Edad superior (m)": "96",
+    "Country": "Panamá",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": 0,
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": "3",
+        "C pneumoniae": "3",
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "0"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sarachaga 2001 (2 to 10 months)",
+    "Autores": "Sarachaga, M. J.",
+    "Año": 2001,
+    "N con NAC": 1163,
+    "Comienzo": "01-09-1987",
+    "Final": "01/08/1988",
+    "Edad inferior (m)": "2",
+    "Edad superior (m)": "10",
+    "Country": "Uruguay",
+    "Age Range": "<11 meses",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": 0,
+        "S. pneumoniae": "51",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": 0,
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": 0,
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "5"
+      },
+      "Tiempo de internación": {
+        "LOS general": 0
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sequeira 1997  (2 to 60 months)",
+    "Autores": "Sequeira, Maria Delfina;Zerbini, Elsa;Imaz, Maria Susana;Veronessi, Ines;Latini, Omar;Cociglio, Raquel;Pierini, Judith",
+    "Año": 1997,
+    "N con NAC": 237,
+    "Comienzo": "07-06-1993",
+    "Final": "30/11/1995",
+    "Edad inferior (m)": "2",
+    "Edad superior (m)": "60",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": 0,
+    "Limite de edad inf": 0,
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "162",
+        "S. pneumoniae": "19",
+        "H Influenzae B": 0,
+        "H Influenzae (non-spec)": "2",
+        "M catarrhalis": 0,
+        "M pneumoniae": 0,
+        "C pneumoniae": 0,
+        "C trachomatis": "6",
+        "T pallidum": 0,
+        "M hominis": 0,
+        "U urealyticum": 0,
+        "S aureus": 0,
+        "St pyogenes": 0,
+        "St alpha": 0,
+        "P_aeruginosa": 0,
+        "Other_bact": 0,
+        "Co-infection Bacterial": 0
+      },
+      "Death": {
+        "Death": "1"
+      },
+      "Tiempo de internación": {
+        "LOS general": "5"
+      },
+      "serotipo": {
+        "s14": 12,
+        "s18c": 0,
+        "s1": 0,
+        "s6B": 1,
+        "s5": 0,
+        "s9V": 1,
+        "s12F": 0,
+        "s7F": 5,
+        "sNT": 0,
+        "s19F": 0,
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": 0,
+        "s3": 0,
+        "s15C": 0,
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Camou 2003 (0 to 23 months)",
+    "Autores": "Camou, T.;Palacio, R.;Di Fabio, J. L.;Hortal, M.",
+    "Año": 2003,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "23",
+    "Country": "Uruguay",
+    "Age Range": "0 a 23 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 99,
+        "s18c": "1",
+        "s1": 8,
+        "s6B": 7,
+        "s5": 23,
+        "s9V": 7,
+        "s12F": 0,
+        "s7F": 7,
+        "sNT": 0,
+        "s19F": "0",
+        "s6A": 0,
+        "s23F": 2,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": 0,
+        "s3": 14,
+        "s15C": 0,
+        "sOtro": 20
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Camou 2003 (24 to 60 months)",
+    "Autores": "Camou, T.;Palacio, R.;Di Fabio, J. L.;Hortal, M.",
+    "Año": 2003,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "24",
+    "Edad superior (m)": "60",
+    "Country": "Uruguay",
+    "Age Range": "24 a 59 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 45,
+        "s18c": "0",
+        "s1": 33,
+        "s6B": 2,
+        "s5": 29,
+        "s9V": 3,
+        "s12F": 0,
+        "s7F": 6,
+        "sNT": 0,
+        "s19F": "3",
+        "s6A": 0,
+        "s23F": 4,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": 0,
+        "s3": 5,
+        "s15C": 0,
+        "sOtro": 12
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Kiertsman 2003 (3 to 144 months)",
+    "Autores": "Kiertsman, Bernardo;Murahovschi, Jayme;Berezin, Eitan Naaman;Damaceno, Neiva;Brandileone, Maria Cristina C.;Guerra, Maria Luiza",
+    "Año": 2003,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "3",
+    "Edad superior (m)": "144",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 23,
+        "s18c": 0,
+        "s1": 10,
+        "s6B": 2,
+        "s5": 7,
+        "s9V": 0,
+        "s12F": 0,
+        "s7F": 0,
+        "sNT": 0,
+        "s19F": 0,
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 3,
+        "s19A": 0,
+        "s33F": 0,
+        "s3": 1,
+        "s15C": 0,
+        "sOtro": 4
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Argentina",
+    "Autores": "Sireva II Argentina",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 189,
+        "s18c": "6",
+        "s1": 65,
+        "s6B": 32,
+        "s5": 83,
+        "s9V": 25,
+        "s12F": 0,
+        "s7F": 18,
+        "sNT": 0,
+        "s19F": "8",
+        "s6A": 9,
+        "s23F": 11,
+        "s4": 4,
+        "s19A": 18,
+        "s33F": 0,
+        "s3": 12,
+        "s15C": 0,
+        "sOtro": 39
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Brazil",
+    "Autores": "Sireva II Brazil",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Brasil",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 256,
+        "s18c": "6",
+        "s1": 71,
+        "s6B": 40,
+        "s5": 22,
+        "s9V": 15,
+        "s12F": 0,
+        "s7F": 8,
+        "sNT": 0,
+        "s19F": "6",
+        "s6A": 14,
+        "s23F": 12,
+        "s4": 3,
+        "s19A": 23,
+        "s33F": 0,
+        "s3": 19,
+        "s15C": 0,
+        "sOtro": 33
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Chile",
+    "Autores": "Sireva II Chile",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 83,
+        "s18c": "7",
+        "s1": 31,
+        "s6B": 6,
+        "s5": 34,
+        "s9V": 6,
+        "s12F": 0,
+        "s7F": 16,
+        "sNT": 0,
+        "s19F": "10",
+        "s6A": 7,
+        "s23F": 3,
+        "s4": 4,
+        "s19A": 13,
+        "s33F": 0,
+        "s3": 2,
+        "s15C": 0,
+        "sOtro": 46
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Colombia",
+    "Autores": "Sireva II Colombia",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Colombia",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 100,
+        "s18c": "6",
+        "s1": 36,
+        "s6B": 25,
+        "s5": 14,
+        "s9V": 11,
+        "s12F": 0,
+        "s7F": 0,
+        "sNT": 0,
+        "s19F": "3",
+        "s6A": 16,
+        "s23F": 14,
+        "s4": 3,
+        "s19A": 3,
+        "s33F": 0,
+        "s3": 8,
+        "s15C": 0,
+        "sOtro": 14
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Cuba",
+    "Autores": "Sireva II Cuba",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Cuba",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 27,
+        "s18c": "38",
+        "s1": 20,
+        "s6B": 25,
+        "s5": 5,
+        "s9V": 7,
+        "s12F": 0,
+        "s7F": 15,
+        "sNT": 0,
+        "s19F": "32",
+        "s6A": 7,
+        "s23F": 11,
+        "s4": 3,
+        "s19A": 9,
+        "s33F": 0,
+        "s3": 4,
+        "s15C": 0,
+        "sOtro": 12
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II México",
+    "Autores": "Sireva II México",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "México",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 25,
+        "s18c": "4",
+        "s1": 11,
+        "s6B": 34,
+        "s5": 4,
+        "s9V": 13,
+        "s12F": 0,
+        "s7F": 2,
+        "sNT": 0,
+        "s19F": "47",
+        "s6A": 5,
+        "s23F": 37,
+        "s4": 2,
+        "s19A": 18,
+        "s33F": 0,
+        "s3": 5,
+        "s15C": 0,
+        "sOtro": 70
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Paraguay",
+    "Autores": "Sireva II Paraguay",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Paraguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 138,
+        "s18c": "2",
+        "s1": 31,
+        "s6B": 20,
+        "s5": 60,
+        "s9V": 19,
+        "s12F": 0,
+        "s7F": 10,
+        "sNT": 0,
+        "s19F": "2",
+        "s6A": 8,
+        "s23F": 10,
+        "s4": 4,
+        "s19A": 7,
+        "s33F": 0,
+        "s3": 3,
+        "s15C": 0,
+        "sOtro": 49
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Republica Dominicana",
+    "Autores": "Sireva II Republica Dominicana",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Rep. Dominicana",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 126,
+        "s18c": "3",
+        "s1": 19,
+        "s6B": 22,
+        "s5": 5,
+        "s9V": 4,
+        "s12F": 0,
+        "s7F": 2,
+        "sNT": 0,
+        "s19F": "2",
+        "s6A": 8,
+        "s23F": 5,
+        "s4": 4,
+        "s19A": 6,
+        "s33F": 0,
+        "s3": 10,
+        "s15C": 0,
+        "sOtro": 12
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Uruguay",
+    "Autores": "Sireva II Uruguay",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Uruguay",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 154,
+        "s18c": "1",
+        "s1": 66,
+        "s6B": 16,
+        "s5": 79,
+        "s9V": 18,
+        "s12F": 0,
+        "s7F": 15,
+        "sNT": 0,
+        "s19F": "5",
+        "s6A": 4,
+        "s23F": 1,
+        "s4": 5,
+        "s19A": 14,
+        "s33F": 0,
+        "s3": 27,
+        "s15C": 0,
+        "sOtro": 21
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Sireva II Venezuela",
+    "Autores": "Sireva II Venezuela",
+    "Año": 0,
+    "N con NAC": 0,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Venezuela",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 80,
+        "s18c": "1",
+        "s1": 17,
+        "s6B": 18,
+        "s5": 21,
+        "s9V": 2,
+        "s12F": 0,
+        "s7F": 7,
+        "sNT": 0,
+        "s19F": "1",
+        "s6A": 3,
+        "s23F": 2,
+        "s4": 1,
+        "s19A": 14,
+        "s33F": 0,
+        "s3": 15,
+        "s15C": 0,
+        "sOtro": 5
+      },
+      "incidencia": {
+        "Duracion": 0,
+        "Duracion en años": 0,
+        "N con NAC anual": 0
+      }
+    },
+    "base_pop": 0
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Tregnaghi 2006 (0 to 23 months)",
+    "Autores": "Tregnaghi, M.;Ceballos, A.;Ruttimann, R.;Ussher, J.;Tregnaghi, P.;Peeters, P.;Hausdorff, W. P.",
+    "Año": 2006,
+    "N con NAC": 2112,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "2",
+    "Edad superior (m)": "23",
+    "Country": "Argentina",
+    "Age Range": "0 a 23 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 39,
+        "s18c": "0",
+        "s1": 5,
+        "s6B": 9,
+        "s5": 6,
+        "s9V": 2,
+        "s12F": "1",
+        "s7F": 2,
+        "sNT": "2",
+        "s19F": "2",
+        "s6A": 1,
+        "s23F": 1,
+        "s4": 1,
+        "s19A": 1,
+        "s33F": "1",
+        "s3": 1,
+        "s15C": "1",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 12,
+        "Duracion en años": 1.00,
+        "N con NAC anual": 2112
+      }
+    },
+    "base_pop": 86211
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Andrade 2004  (0 to 60 months)",
+    "Autores": "",
+    "Año": 2004,
+    "N con NAC": 724,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": 0,
+    "Edad superior (m)": 0,
+    "Country": "Brasil",
+    "Age Range": "<11 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 12,
+        "Duracion en años": 1.00,
+        "N con NAC anual": 724
+      }
+    },
+    "base_pop": 90576
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Gentile 2008 (0 to 60 months)",
+    "Autores": "",
+    "Año": 2008,
+    "N con NAC": 611,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "59",
+    "Country": "Argentina",
+    "Age Range": "<11 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 36,
+        "Duracion en años": 3.00,
+        "N con NAC anual": 204
+      }
+    },
+    "base_pop": 27209
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Hortal 2007 (0 to 60 months)",
+    "Autores": "",
+    "Año": 2007,
+    "N con NAC": 275,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Uruguay",
+    "Age Range": "<11 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 12,
+        "Duracion en años": 1.00,
+        "N con NAC anual": 275
+      }
+    },
+    "base_pop": 23445
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Iraola Ferro 2005 (60 or more)",
+    "Autores": "",
+    "Año": 2005,
+    "N con NAC": 228,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "60",
+    "Edad superior (m)": "168",
+    "Country": "Uruguay",
+    "Age Range": "<11 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 36,
+        "Duracion en años": 3.00,
+        "N con NAC anual": 76
+      }
+    },
+    "base_pop": 45103
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Lagos 2007 (1 to 35 months)",
+    "Autores": "",
+    "Año": 2007,
+    "N con NAC": 529,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "1",
+    "Edad superior (m)": "35",
+    "Country": "Chile",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 24,
+        "Duracion en años": 2.00,
+        "N con NAC anual": 265
+      }
+    },
+    "base_pop": 29433
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Levine 1999 (0 to 23 months)",
+    "Autores": "",
+    "Año": 1999,
+    "N con NAC": 85,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "4",
+    "Edad superior (m)": "23",
+    "Country": "Chile",
+    "Age Range": "0 a 23 meses",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 29,
+        "Duracion en años": 2.42,
+        "N con NAC anual": 35
+      }
+    },
+    "base_pop": 10274
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ruvinsky Concordia 2004 (0 to 60 months)",
+    "Autores": "",
+    "Año": 2004,
+    "N con NAC": 328,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 24,
+        "Duracion en años": 2.00,
+        "N con NAC anual": 164
+      }
+    },
+    "base_pop": 16143
+  },
+  {
+    "Pathology": "NAC",
+    "Estudio": "Ruvinsky Paraná 2004 (0 to 60 months)",
+    "Autores": "",
+    "Año": 2004,
+    "N con NAC": 390,
+    "Comienzo": "",
+    "Final": "",
+    "Edad inferior (m)": "0",
+    "Edad superior (m)": "60",
+    "Country": "Argentina",
+    "Age Range": "Todos",
+    "Limite de edad sup": "",
+    "Limite de edad inf": "",
+    "Outcomes": {
+      "etiologia": {
+        "No growth": "",
+        "S. pneumoniae": "",
+        "H Influenzae B": "",
+        "H Influenzae (non-spec)": "",
+        "M catarrhalis": "",
+        "M pneumoniae": "",
+        "C pneumoniae": "",
+        "C trachomatis": "",
+        "T pallidum": "",
+        "M hominis": "",
+        "U urealyticum": "",
+        "S aureus": "",
+        "St pyogenes": "",
+        "St alpha": "",
+        "P_aeruginosa": "",
+        "Other_bact": "",
+        "Co-infection Bacterial": ""
+      },
+      "Death": {
+        "Death": ""
+      },
+      "Tiempo de internación": {
+        "LOS general": ""
+      },
+      "serotipo": {
+        "s14": 0,
+        "s18c": "",
+        "s1": 0,
+        "s6B": 0,
+        "s5": 0,
+        "s9V": 0,
+        "s12F": "",
+        "s7F": 0,
+        "sNT": "",
+        "s19F": "",
+        "s6A": 0,
+        "s23F": 0,
+        "s4": 0,
+        "s19A": 0,
+        "s33F": "",
+        "s3": 0,
+        "s15C": "",
+        "sOtro": 0
+      },
+      "incidencia": {
+        "Duracion": 24,
+        "Duracion en años": 2.00,
+        "N con NAC anual": 195
+      }
+    },
+    "base_pop": 28739
+  }
+]

@@ -1,0 +1,59 @@
+div.container-fluid(ng-controller="Pathology")
+	div.raw-fluid
+		div.span2
+			ul.navlist
+				li
+					div.accordion-heading
+						a.accordion-toggle(data-toggle="collapse", data-target="#collapseYear") Años
+					ul#collapseYear.accordion-body.collapse
+						li(ng-repeat="year in years")
+							label
+								input.year(type="checkbox", name="year", value="{{year.year}}", checked, ng-change="changeYear({{$index}})", ng-model="year.checked")
+								{{year.year}}  ({{year.studies.length}})
+				li
+					div.accordion-heading
+						a.accordion-toggle(data-toggle="collapse", data-target="#collapseCountry") Países
+					ul#collapseCountry.accordion-body.collapse
+						li(ng-repeat="country in countries", ng-show="country.studies.length")
+							label
+								input.country(type="checkbox", name="country", value="{{country.country}}", ng-model="country.checked")
+								{{country.country}}  ({{country.studies.length}})
+				li
+					div.dropdown
+						a#ageRange(class="dropdown-toggle", data-toggle="dropdown", data-target="#") {{age_range}}
+							b.caret
+						ul.dropdown-menu(role="menu", aria-labelledby="ageRange")
+							li(ng-repeat="range in age_ranges", ng-click="selectRange(range)")
+								a(tabindex="-1", data-target="#"){{range.age_range}}
+				li
+					div.dropdown
+						a#indicators.dropdown-toggle(data-toggle="dropdown", data-target="#") {{pathology.outcomes[active_filter].display_name || active_filter}}
+							b.caret
+						ul.dropdown-menu(role="menu", aria-labelledby="indicators")
+							li(ng-repeat="(name, outcome) in pathology.outcomes")
+								a(tabindex="-1", data-target="#", ng-click="$parent.active_filter = name"){{outcome.display_name}}
+				li(ng-show="pathology.outcomes[active_filter].options.length > 1")
+					div.accordion-heading
+						a.accordion-toggle(data-toggle="collapse", data-target="#collapseFilter") {{pathology.outcomes[active_filter].display_name}}
+					ul#collapseFilter.accordion-body.collapse
+						li(ng-repeat="filter in pathology.outcomes[active_filter].options")
+							label
+								input(type="checkbox", name="filter", value="{{filter}}")	
+								{{filter}}
+		div.span10
+			table.table-bordered.table-hover.table-striped
+				thead
+					tr
+						th
+						th(ng-repeat="year in years", ng-show="year.checked")
+							{{year.year}}
+				tbody
+					tr(ng-repeat="country in countries", ng-show="country.checked && country.studies.length")
+						th
+							{{country.country}}
+						td(ng-repeat="year in years", ng-show="year.checked")
+							| {{table_content[year.year][country.country].denom}} &emsp; {{table_content[year.year][country.country].ind}}
+							br
+							| ({{table_content[year.year][country.country].studies.count}}) &emsp; {{table_content[year.year][country.coountry].st}}
+							div.popover
+
