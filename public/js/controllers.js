@@ -35,6 +35,7 @@ angular.module('mapa.controllers', []).
     }).
     success(function (data, status, headers, config){
       self.studies = data.studies;
+      $scope.studies = self.studies;
       $scope.pathology = data.pathology;
       for(var study in data.studies){
         data.studies[study]['Año'] in self.years? self.years[data.studies[study]['Año']].push(study): self.years[data.studies[study]['Año']] = [study];
@@ -44,15 +45,13 @@ angular.module('mapa.controllers', []).
       for(var i in self.years){
         $scope.years.push({'year': i, 'studies': self.years[i], 'checked': true})
       }
-      var sorted_countries = Object.keys(self.countries).sort()
-      for(var i in sorted_countries){
-        $scope.countries.push({'country': sorted_countries[i], 'studies': self.countries[sorted_countries[i]]})
+      for(var i in self.countries){
+        $scope.countries.push({'country': i, 'studies': self.countries[i]})
       }
       for(var i in self.age_ranges){
         $scope.age_ranges.push({'age_range': i, 'studies': self.countries[i]})
       }
       $scope.age_range = "Age range";
-      $scope.active_filter = "Indicador";
       $scope.indicators = Object.keys(data.pathology.outcomes);
       $scope.filters = [];
     }).

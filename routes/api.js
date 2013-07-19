@@ -22,7 +22,7 @@ exports.pathology = function(req, res) {
 				resp['pathology'] = item[0];
 				res.json(resp);
 				db.close();
-		});
+			});
 		});
 
 	});
