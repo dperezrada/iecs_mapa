@@ -3,17 +3,17 @@
 /* Controllers */
 
 angular.module('mapa.controllers', []).
-  controller('AppCtrl', function ($scope, $http) {
+  controller('header', function ($scope, $http) {
 
     $http({
       method: 'GET',
-      url: '/api/name'
+      url: '/api/pathologies'
     }).
     success(function (data, status, headers, config) {
-      $scope.name = data.name;
+      $scope.pathologies = data.pathologies;
     }).
     error(function (data, status, headers, config) {
-      $scope.name = 'Error!'
+      $scope.pathologies = 'Error!'
     });
 
   }).
@@ -23,33 +23,30 @@ angular.module('mapa.controllers', []).
     this.age_ranges = {}
     this.studies = [];
     var self = this;
-    $scope.years = [];
-    $scope.countries = [];
-    $scope.age_ranges = [];
-    $scope.show_studies = [];
-    $scope.table_content = [];
-    $scope.table = {'column': 'year', 'row': 'country'};
+    $scope.data = {'year': [], 'country': [], 'age_range': []};
+    $scope.table = {'column': 'year', 'row': 'country', 'filter': []};
+    $scope.positions = {'year': 'column', 'country': 'row', 'age_range': 'filter'}
     $http({
       method: 'GET',
       url: '/api/pathology/' + $routeParams['pathology']
     }).
     success(function (data, status, headers, config){
-      self.studies = data.studies;
-      $scope.studies = self.studies;
+      $scope.studies = data.studies;
       $scope.pathology = data.pathology;
+      var COUNTRY_CODES = {'Argentina': 'ar', 'Brasil': 'br', 'Chile': 'cl', 'Colombia': 'co', 'Cuba': 'cu', 'Ecuador': 'ec', 'Guatemala': 'gt', 'México': 'mx', 'Panamá': 'pa', 'Paraguay': 'py', 'Perú': 'pe', 'Rep. Dominicana': 'do', 'Uruguay': 'uy', 'Venezuela': 've'};
       for(var study in data.studies){
-        data.studies[study]['Año'] in self.years? self.years[data.studies[study]['Año']].push(study): self.years[data.studies[study]['Año']] = [study];
-        data.studies[study]['Country'] in self.countries? self.countries[data.studies[study]['Country']].push(study): self.countries[data.studies[study]['Country']] = [study];
+        data.studies[study]['year'] in self.years? self.years[data.studies[study]['year']].push(study): self.years[data.studies[study]['year']] = [study];
+        data.studies[study]['country'] in self.countries? self.countries[data.studies[study]['country']].push(study): self.countries[data.studies[study]['country']] = [study];
         data.studies[study]['Age Range'] in self.age_ranges? self.age_ranges[data.studies[study]['Age Range']].push(study): self.age_ranges[data.studies[study]['Age Range']] = [study];
       }
       for(var i in self.years){
-        $scope.years.push({'year': i, 'studies': self.years[i], 'checked': true})
+        $scope.data.year.push({'name': i, 'studies': self.years[i], 'checked': true});
       }
       for(var i in self.countries){
-        $scope.countries.push({'country': i, 'studies': self.countries[i]})
+        $scope.data.country.push({'name': i, 'studies': self.countries[i], 'code': COUNTRY_CODES[i]});
       }
       for(var i in self.age_ranges){
-        $scope.age_ranges.push({'age_range': i, 'studies': self.countries[i]})
+        $scope.data.age_range.push({'name': i, 'studies': self.age_ranges[i]});
       }
       $scope.age_range = "Age range";
       $scope.indicators = Object.keys(data.pathology.outcomes);
@@ -59,22 +56,25 @@ angular.module('mapa.controllers', []).
       $scope.years = [];
     });
     $scope.changeYear = function (index){
-      var years = angular.fromJson(angular.toJson($scope.years));
+      var years = angular.fromJson(angular.toJson($scope.data.year));
       for(var i in years[index].studies){
         if(!years[index].checked){
-          for(var j in $scope.countries){
-            var ind = $scope.countries[j].studies.indexOf(years[index].studies[i]);
+          for(var j in $scope.data.country){
+            var ind = $scope.data.country[j].studies.indexOf(years[index].studies[i]);
             if(ind >= 0){
-              $scope.countries[j].studies.splice(ind, 1);
+              $scope.data.country[j].studies.splice(ind, 1);
+              if($scope.data.country[j].studies.length == 0){
+                $scope.data.country[j].checked = false;
+              }
             }
           }
         }
         else{
-          var country = self.studies[years[index].studies[i]]['Country'];
-          for(var j in $scope.countries){
-            if($scope.countries[j].country == country){
-              if($scope.countries[j].studies.indexOf(years[index].studies[i]) < 0){
-                $scope.countries[j].studies.push(years[index].studies[i]);
+          var country = $scope.studies[years[index].studies[i]]['country'];
+          for(var j in $scope.data.country){
+            if($scope.data.country[j].name == country){
+              if($scope.data.country[j].studies.indexOf(years[index].studies[i]) < 0){
+                $scope.data.country[j].studies.push(years[index].studies[i]);
                 break;
               }
             }
@@ -89,36 +89,37 @@ angular.module('mapa.controllers', []).
       $scope.selected_filter = selected_filter;
       $scope.getTableDocs();
     }
-    $scope.getTableDocs = function (){
-      var years = angular.fromJson(angular.toJson($scope.years));
-      var countries = angular.fromJson(angular.toJson($scope.countries));
-      for(var y in $scope.years){
-        if($scope.years[y].checked){
-          $scope.show_studies[$scope.years[y].year] = [];
-          $scope.table_content[$scope.years[y].year] = [];
-          for(var c in $scope.countries){
-            if($scope.countries[c].checked){
-              var selector = jlinq.from(self.studies).equals('Country', $scope.countries[c].country).equals('Año', parseInt($scope.years[y].year)).equals('Age Range', $scope.age_range);
-              // for(var qwr in $scope.pathology.indicator[active_filter]){
-              //   selector = selector.or().greater('Outcomes.' + active_filter + '.' + qwr, 0);
-              // }
-              $scope.show_studies[$scope.years[y].year][$scope.countries[c].country] = selector.select();
-              $scope.table_content[$scope.years[y].year][$scope.countries[c].country] = {count:0};
-              for(var study in $scope.show_studies[$scope.years[y].year][$scope.countries[c].country]){
-                if(!isNaN(parseInt($scope.show_studies[$scope.years[y].year][$scope.countries[c].country][study]['Outcomes'][$scope.active_filter][$scope.selected_filter]))){
-                  $scope.table_content[$scope.years[y].year][$scope.countries[c].country].count +=  parseInt($scope.show_studies[$scope.years[y].year][$scope.countries[c].country][study]['Outcomes'][$scope.active_filter][$scope.selected_filter]);
-                }
-              }
-
-            }
-          }
-        }
+    $scope.objComperator = function(obj, searchObj){
+      for(var i in searchObj){
+        if(searchObj[i] != obj[i]) return false;
       }
-    };
-    $scope.showFilter = function(filters){
-      return filters > 1;
+      return true;
     }
-    
+    $scope.changeTable = function(field, pos){
+      var prev_pos;
+      angular.forEach($scope.table, function(val, key){
+        if(val == field || val.indexOf(field) >= 0){
+          prev_pos = key;
+        }
+      });
+
+      if(pos != 'filter'){
+        var prev = $scope.table[pos];
+        if(prev_pos == 'filter'){
+          $scope.table[prev_pos].splice(val.indexOf(field), 1);
+          $scope.table[prev_pos].push(prev);
+        }
+        else{
+          $scope.table[prev_pos] = prev;
+        }
+        $scope.table[pos] = field;
+        if(prev) $scope.positions[prev] = prev_pos;
+      }
+      else{
+        $scope.table['filter'].push(field);
+        $scope.table[prev_pos] = '';
+      }
+    }
 
   }).
   controller('MyCtrl2', function ($scope) {

@@ -8,42 +8,75 @@ angular.module('mapa.filters', []).
       return String(text).replace(/\%VERSION\%/mg, version);
     }
   }).
-  filter('cell_content', function ($filter){
-  	return function (studies, pathology, active_filter) {
-  		var content = {'participants': 0, 'incidence': 0};
-  		if(active_filter){
-	  		var denom = pathology.outcomes[active_filter].denom;
-	  		var filtered_list = $filter('filter')(pathology.outcomes[active_filter].options, {checked:true});
-	  		var selected_option = null;
-	  		if(filtered_list.length){
-	  			selected_option = filtered_list[0].name;
-	  		}
-	  		console.log(selected_option)
-	  		for(var i in studies){
-	  			if(!isNaN(parseInt(studies[i][denom])))
-	  				content['participants'] += parseInt(studies[i][denom]);
-	  			if(!isNaN(parseInt(studies[i]['Outcomes'][active_filter][selected_option])))
-	  				content['incidence'] += parseInt(studies[i]['Outcomes'][active_filter][selected_option]);
-	  		}
-	  		content['incidence'] *= 100.0;
-	  		content['incidence'] /= content['participants'];
-	  	}
-	  	return content;
-  	}
-  }).
+  // filter('cell_content', function ($filter){
+  // 	return function (studies, pathology, active_filter) {
+  		
+  // 	}
+  // }).
   filter('measured', function(){
-  	return function (studies, outcome){
+  	return function (studies, outcome, pathology){
   		var measured_studies = [];
-  		for(var study in studies){
-  			var measured = 0;
-  			for(var option in studies[study]['Outcomes'][outcome]){
-  				measured += studies[study]['Outcomes'][outcome];
-  			}
-  			if(measured){
-  				measured_studies.push(studies[study]);
-  			}
-  		}
+      if(outcome){
+    		for(var study in studies){
+    			var measured = 0;
+    			for(var option in studies[study]['Outcomes'][outcome]){
+    				var value = parseInt(studies[study]['Outcomes'][outcome][option]);
+            if(!isNaN(value))
+              measured += value;
+    			}
+          var participants = studies[study];
+          angular.forEach(pathology.outcomes[outcome]['denom'].split('.'), function(key){
+            participants = participants[key];
+          });
+          participants = parseInt(participants);
+    			if(measured && !isNaN(participants) && participants){
+    				measured_studies.push(studies[study]);
+    			}
+    		}
+      }
   		return measured_studies;
   	}
+  }).
+  filter('filterIn', function(){
+    return function (list, field, accepted_values){
+      var out = [];
+      for(var i in list){
+        if(accepted_values.indexOf('' + list[i][field]) >= 0){
+          out.push(list[i]);
+        }
+      }
+      return out;
+    }
+  }).
+  filter('extractField', function(){
+    return function (list, field) {
+      var out = [];
+      for(var i in list){
+        out.push(list[i][field]);
+      }
+      return out;
+    }
+  }).
+  filter('filterByField', function(){
+    return function (list, key, value){
+      var out = [];
+      for(var index in list){
+        if(list[index][key] == value){
+          out.push(list[index]);
+        }
+      }
+      return out;
+    }
+  }).
+  filter('hasProperty', function(){
+    return function(list, key){
+      var out = [];
+      angular.forEach(list, function(obj){
+        if(obj[key] && obj[key].length){
+          out.push(obj);
+        }
+      });
+      return out;
+    }
   })
   ;

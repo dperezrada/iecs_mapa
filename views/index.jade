@@ -1,23 +1,30 @@
 extends layout
 
 block body
-  div(ng-controller='AppCtrl')
-    h2 MAPA
-    ul.menu
-      li
-        a(href='/pathology/NAC') NAC
+  header.header(ng-controller='header')
+    div.navbar
+      div.navbar-inner
+        div.container
+          img(src="img/MAPA_logo.png")
+          img.pull-right(src="img/logo_iecs.png")
+          ul.menu
+            li(ng-repeat="pathology in pathologies")
+              a(href='/pathology/{{pathology.pathology}}') {{pathology.display_name}}
 
     div(ng-view)
 
   script(src='js/lib/jlinq.js')
+  script(src='js/lib/widgets.js')
+  script(src='js/lib/jquery.min.js')
+  script(src='js/lib/jquery-ui.js')
+  script(src='js/lib/bootstrap.js')
+  script(src='js/lib/jquery.ui.touch-punch.min.js')
+  script(src='js/lib/metro-base.js')
   script(src='js/lib/angular/angular.js')
+  script(src='js/lib/d3.min.js')
   script(src='js/app.js')
   script(src='js/services.js')
   script(src='js/controllers.js')
   script(src='js/filters.js')
   script(src='js/directives.js')
-  script(src='js/lib/jquery.min.js')
-  script(src='js/lib/bootstrap-dropdown.js')
-  script(src='js/lib/bootstrap-collapse.js')
-  script(src='js/lib/bootstrap-tooltip.js')
-  script(src='js/lib/bootstrap-popover.js')
+  

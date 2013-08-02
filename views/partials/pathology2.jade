@@ -1,0 +1,80 @@
+section.section-content(ng-controller="Pathology")
+	div.side-left
+		ul.nav.nav-list
+			li.dropdown-list
+				a.dropdown-toggle(data-toggle="dropdown-list") Años
+					i.aweso-angle-down
+				ul.dropdown-menu
+					label Año como:
+						select(ng-model="positions.year", ng-change="changeTable('year', positions.year)")
+							option(value="column") Columna
+							option(value="row") Fila
+							//option(value="filter") Filtro
+					li(ng-repeat="year in data.year")
+						label
+							input.year(type="checkbox", name="year", value="{{year.name}}", checked, ng-change="changeYear({{$index}})", ng-model="year.checked")
+							{{year.name}}  ({{year.studies.length}})
+			li
+				div.accordion-heading
+					a.accordion-toggle(data-toggle="collapse", data-target="#collapseCountry") Países
+				ul#collapseCountry.accordion-body.collapse
+					label País como:
+						select(ng-model="positions.country", ng-change="changeTable('country', positions.country)")
+							option(value="column") Columna
+							option(value="row") Fila
+							//option(value="filter") Filtro
+					li(ng-repeat="country in data.country | hasProperty:'studies' | orderBy:'name'")
+						label
+							input.country(type="checkbox", name="country", value="{{country.code}}", ng-model="country.checked")
+							{{country.name}}  ({{country.studies.length}})
+			li
+				div.dropdown
+					a#ageRange(class="dropdown-toggle", data-toggle="dropdown", data-target="#") {{age_range}}
+						b.caret
+					ul.dropdown-menu(role="menu", aria-labelledby="ageRange")
+						li(ng-repeat="range in data.age_range", ng-click="selectRange(range)")
+							a(tabindex="-1", data-target="#"){{range.name}}
+			li
+				div.dropdown
+					a#indicators(ng-class="{'dropdown-toggle':true}", data-toggle="dropdown", data-target="#", role="button") {{pathology.outcomes[active_filter].display_name || "Indicador"}}
+						b.caret
+					ul(ng-class="{'dropdown-menu':true}", role="menu", aria-labelledby="indicators")
+						li(ng-repeat="(name, outcome) in pathology.outcomes")
+							a(tabindex="-1", data-target="#", ng-click="$parent.active_filter = name"){{outcome.display_name}}
+			li(ng-show="pathology.outcomes[active_filter].options.length > 1")
+				div.accordion-heading
+					a.accordion-toggle(data-toggle="collapse", data-target="#collapseFilter") {{pathology.outcomes[active_filter].display_name}}
+				ul#collapseFilter.accordion-body.collapse
+					li(ng-repeat="filter in pathology.outcomes[active_filter].options")
+						label
+							input(type="checkbox", value="{{filter.name}}", ng-init="filter.checked=filter.checked || pathology.outcomes[active_filter].options.length == 1", ng-model="filter.checked", ng-disabled="(pathology.outcomes[active_filter].options|filter:{checked:true}).length != 0 && !filter.checked")	
+							{{filter.name}}
+	div.content
+		ul.nav.nav-tabs
+			li(ng-class="{active:!show_mapa}") 
+				a(ng-click="show_mapa=false") Tabla
+			li(ng-class="{active:show_mapa}")
+				a(ng-click="show_mapa=true") Mapa
+		div#table(ng-hide="show_mapa")
+			table.table-bordered.table-hover.table-striped
+				thead
+					tr
+						th
+						th(ng-repeat="column in data[table.column] | filter:{checked:true} | orderBy:'name'")
+							{{column.name}}
+						th Total
+				tbody
+					tr(ng-repeat="row in data[table.row] | filter:{checked:true} | orderBy: 'name'")
+						th
+							{{row.name}}
+						td(ng-repeat="column in data[table.column] | filter:{checked:true}", cell-content, studies="{{(studies|filterByField:table.column:column.name | filterByField:table.row:row.name | measured:active_filter:pathology)}}", pathology="{{pathology}}", active-filter="{{active_filter}}")
+						td(class="total {{row.code}}", cell-content, studies="{{(studies|filterByField:table.row:row.name | filterIn:table.column:(data[table.column] | filter:{checked:true} | extractField:'name')| measured:active_filter:pathology)}}", pathology="{{pathology}}", active-filter="{{active_filter}}")
+					tr.total
+						th Total
+						td(class="total {{column.code}}", ng-repeat="column in data[table.column]| filter:{checked:true}", cell-content, studies="{{(studies | filterByField:table.column:column.name | filterIn:table.row:(data[table.row] | filter:{checked:true} | extractField: 'name')| measured: active_filter:pathology)}}", active-filter="{{active_filter}}", pathology="{{pathology}}")
+						td.total(cell-content, studies="{{(studies|filterIn:table.column:(data[table.column] | filter:{checked:true} | extractField:'name')| filterIn:table.row:(data[table.row] | filter:{checked:true} | extractField: 'name')| measured: active_filter:pathology)}}", pathology="{{pathology}}", active-filter="{{active_filter}}")
+		div#mapa(mapa, ng-show="show_mapa")
+		script
+			d3.xml("img/latinamerica.svg", "image/svg+xml", function(xml) {
+					$("#mapa").append(xml.documentElement);
+			});

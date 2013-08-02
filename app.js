@@ -48,6 +48,7 @@ app.get('/partials/:name', routes.partials);
 // JSON API
 app.get('/api/name', api.name);
 app.get('/api/pathology/:pathology', api.pathology);
+app.get('/api/pathologies', api.pathologies);
 
 // redirect all others to the index (HTML5 history)
 app.get('*', routes.index);

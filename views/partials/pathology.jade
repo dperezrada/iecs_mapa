@@ -1,60 +1,78 @@
-div.container-fluid(ng-controller="Pathology")
-	div.raw-fluid
-		div.span2
-			ul.navlist
-				li
-					div.accordion-heading
-						a.accordion-toggle(data-toggle="collapse", data-target="#collapseYear") Años
-					ul#collapseYear.accordion-body.collapse
-						li(ng-repeat="year in years")
-							label
-								input.year(type="checkbox", name="year", value="{{year.year}}", checked, ng-change="changeYear({{$index}})", ng-model="year.checked")
-								{{year.year}}  ({{year.studies.length}})
-				li
-					div.accordion-heading
-						a.accordion-toggle(data-toggle="collapse", data-target="#collapseCountry") Países
-					ul#collapseCountry.accordion-body.collapse
-						li(ng-repeat="country in countries | orderBy:'country'", ng-show="country.studies.length")
-							label
-								input.country(type="checkbox", name="country", value="{{country.country}}", ng-model="country.checked")
-								{{country.country}}  ({{country.studies.length}})
-				li
-					div.dropdown
-						a#ageRange(class="dropdown-toggle", data-toggle="dropdown", data-target="#") {{age_range}}
-							b.caret
-						ul.dropdown-menu(role="menu", aria-labelledby="ageRange")
-							li(ng-repeat="range in age_ranges", ng-click="selectRange(range)")
-								a(tabindex="-1", data-target="#"){{range.age_range}}
-				li
-					div.dropdown
-						a#indicators.dropdown-toggle(data-toggle="dropdown", data-target="#") {{pathology.outcomes[active_filter].display_name || "Indicador"}}
-							b.caret
-						ul.dropdown-menu(role="menu", aria-labelledby="indicators")
-							li(ng-repeat="(name, outcome) in pathology.outcomes")
-								a(tabindex="-1", data-target="#", ng-click="$parent.active_filter = name"){{outcome.display_name}}
-				li(ng-show="pathology.outcomes[active_filter].options.length > 1")
-					div.accordion-heading
-						a.accordion-toggle(data-toggle="collapse", data-target="#collapseFilter") {{pathology.outcomes[active_filter].display_name}}
-					ul#collapseFilter.accordion-body.collapse
-						li(ng-repeat="filter in pathology.outcomes[active_filter].options")
-							label
-								input(type="checkbox", value="{{filter.name}}", ng-model="filter.checked", ng-disabled="(pathology.outcomes[active_filter].options|filter:{checked:true}).length != 0 && !filter.checked")	
-								{{filter.name}}
-		div.span10
-			table.table-bordered.table-hover.table-striped
-				thead
-					tr
-						th
-						th(ng-repeat="year in years | filter:{checked:true}")
-							{{year.year}}
-				tbody
-					tr(ng-repeat="country in countries | filter:true | orderBy: 'country'", ng-show="country.studies.length")
-						th
-							{{country.country}}
-						td(ng-repeat="year in years | filter:{checked:true}")
-							//input(ng-model="filtered_studies") {{}}
-							| {{(studies|filter:{'Country': country.country, 'Año': year.year}| measured: active_filter | cell_content:pathology:active_filter).participants}} &emsp; {{(studies|filter:{'Country': country.country, 'Año': year.year}| measured: active_filter | cell_content:pathology:active_filter).incidence | number:2}}
-							br
-							| ({{table_content[year.year][country.country].studies.count}}) &emsp; {{table_content[year.year][country.coountry].st}}
-							div.popover
-
+section.section-content(ng-controller="Pathology")
+	div.side-left
+		ul.nav.nav-list
+			li.dropdown-list(ng-class="{'open': year_open}", ng-init="year_open=false")
+				label.dropdown-toggle(data-toggle="dropdown-list", ng-click="year_open=!year_open") Años
+				ul(ng-show="year_open")
+					label Año como:
+						select.input-small(ng-model="positions.year", ng-change="changeTable('year', positions.year)")
+							option(value="column") Columna
+							option(value="row") Fila
+							//option(value="filter") Filtro
+					li(ng-repeat="year in data.year")
+						label
+							input.year(type="checkbox", name="year", value="{{year.name}}", checked, ng-change="changeYear({{$index}})", ng-model="year.checked")
+							{{year.name}}  ({{year.studies.length}})
+			li.dropdown-list(ng-class="{'open': country_open}", ng-init="country_open = false")
+				label.dropdown-toggle(data-toggle="dropdown-list", ng-click="country_open = !country_open") Países
+				ul(ng-show="country_open")
+					label País como:
+						select.input-small(ng-model="positions.country", ng-change="changeTable('country', positions.country)")
+							option(value="column") Columna
+							option(value="row") Fila
+							//option(value="filter") Filtro
+					li(ng-repeat="country in data.country | hasProperty:'studies' | orderBy:'name'")
+						label
+							input.country(type="checkbox", name="country", value="{{country.code}}", ng-model="country.checked")
+							{{country.name}}  ({{country.studies.length}})
+			li.dropdown(ng-class="{'open': age_open}", ng-init="age_open = false")
+				label.dropdown-toggle(data-toggle="dropdown", ng-click="age_open=!age_open") Rango Etario
+				ul(ng-show="age_open")
+					li(ng-repeat="range in data.age_range", ng-click="selectRange(range)")
+						label
+							input.age(type="checkbox", ng-model="range.checked")
+							{{range.name}}
+			li.dropdown
+				label.dropdown-toggle Indicador
+				select.input-medium(ng-model="active_filter", ng-options="name as outcome.display_name for (name,outcome) in pathology.outcomes")
+			li.dropdown(ng-show="pathology.outcomes[active_filter].options.length > 1", ng-init='outcome_open=false')
+				label.dropdown-toggle(data-toggle="dropdown", ng-click='outcome_open=!outcome_open') {{pathology.outcomes[active_filter].display_name}}
+				ul(ng-show="outcome_open")
+					li(ng-repeat="filter in pathology.outcomes[active_filter].options")
+						label
+							input(type="checkbox", value="{{filter.name}}", ng-init="filter.checked=filter.checked || pathology.outcomes[active_filter].options.length == 1", ng-model="filter.checked", ng-disabled="(pathology.outcomes[active_filter].options|filter:{checked:true}).length != 0 && !filter.checked")	
+							{{filter.name}}
+	div.content
+		div.widget
+			div.widget-header
+				ul.nav.nav-tabs
+					li(ng-class="{active:!show_mapa}") 
+						a(ng-click="show_mapa=false") Tabla
+					li(ng-class="{active:show_mapa}")
+						a(ng-click="show_mapa=true") Mapa
+			div.widget-content
+				div.tab-content
+					div#table.tab-pane.fade(ng-class="{'active': !show_mapa, 'in':!show_mapa}")
+						table.table-bordered.table-hover.table-striped
+							thead
+								tr
+									th
+									th(ng-repeat="column in data[table.column] | filter:{checked:true} | orderBy:'name'")
+										{{column.name}}
+									th Total
+							tbody
+								tr(ng-repeat="row in data[table.row] | filter:{checked:true} | orderBy: 'name'")
+									th
+										{{row.name}}
+									td(ng-repeat="column in data[table.column] | filter:{checked:true}", cell-content, studies="{{(studies|filterByField:table.column:column.name | filterByField:table.row:row.name | measured:active_filter:pathology)}}", pathology="{{pathology}}", active-filter="{{active_filter}}")
+									td(class="total {{row.code}}", cell-content, studies="{{(studies|filterByField:table.row:row.name | filterIn:table.column:(data[table.column] | filter:{checked:true} | extractField:'name')| measured:active_filter:pathology)}}", pathology="{{pathology}}", active-filter="{{active_filter}}")
+								tr.total
+									th Total
+									td(class="total {{column.code}}", ng-repeat="column in data[table.column]| filter:{checked:true}", cell-content, studies="{{(studies | filterByField:table.column:column.name | filterIn:table.row:(data[table.row] | filter:{checked:true} | extractField: 'name')| measured: active_filter:pathology)}}", active-filter="{{active_filter}}", pathology="{{pathology}}")
+									td.total(cell-content, studies="{{(studies|filterIn:table.column:(data[table.column] | filter:{checked:true} | extractField:'name')| filterIn:table.row:(data[table.row] | filter:{checked:true} | extractField: 'name')| measured: active_filter:pathology)}}", pathology="{{pathology}}", active-filter="{{active_filter}}")
+					div#mapa.tab-pane.fade(mapa,ng-class="{'active': show_mapa, 'in':show_mapa}")
+					script
+						d3.xml("img/latinamerica.svg", "image/svg+xml", function(xml) {
+							$(xml.documentElement).attr('width', 370).attr('height', 400);
+							$("#mapa").append(xml.documentElement);
+						});
