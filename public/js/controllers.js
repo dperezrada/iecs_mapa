@@ -7,10 +7,11 @@ angular.module('mapa.controllers', []).
 
     $http({
       method: 'GET',
-      url: '/api/pathologies'
+      url: 'http://iecsmapa.apidone.com/pathologies'
     }).
     success(function (data, status, headers, config) {
-      $scope.pathologies = data.pathologies;
+      console.log(data)
+      $scope.pathologies = data;
     }).
     error(function (data, status, headers, config) {
       $scope.pathologies = 'Error!'
@@ -28,29 +29,36 @@ angular.module('mapa.controllers', []).
     $scope.positions = {'year': 'column', 'country': 'row', 'age_range': 'filter'}
     $http({
       method: 'GET',
-      url: '/api/pathology/' + $routeParams['pathology']
+      url: 'http://iecsmapa.apidone.com/pathologies/' + $routeParams['pathology'] + '/studies'
     }).
     success(function (data, status, headers, config){
-      $scope.studies = data.studies;
-      $scope.pathology = data.pathology;
-      var COUNTRY_CODES = {'Argentina': 'ar', 'Brasil': 'br', 'Chile': 'cl', 'Colombia': 'co', 'Cuba': 'cu', 'Ecuador': 'ec', 'Guatemala': 'gt', 'México': 'mx', 'Panamá': 'pa', 'Paraguay': 'py', 'Perú': 'pe', 'Rep. Dominicana': 'do', 'Uruguay': 'uy', 'Venezuela': 've'};
-      for(var study in data.studies){
-        data.studies[study]['year'] in self.years? self.years[data.studies[study]['year']].push(study): self.years[data.studies[study]['year']] = [study];
-        data.studies[study]['country'] in self.countries? self.countries[data.studies[study]['country']].push(study): self.countries[data.studies[study]['country']] = [study];
-        data.studies[study]['Age Range'] in self.age_ranges? self.age_ranges[data.studies[study]['Age Range']].push(study): self.age_ranges[data.studies[study]['Age Range']] = [study];
-      }
-      for(var i in self.years){
-        $scope.data.year.push({'name': i, 'studies': self.years[i], 'checked': true});
-      }
-      for(var i in self.countries){
-        $scope.data.country.push({'name': i, 'studies': self.countries[i], 'code': COUNTRY_CODES[i]});
-      }
-      for(var i in self.age_ranges){
-        $scope.data.age_range.push({'name': i, 'studies': self.age_ranges[i]});
-      }
-      $scope.age_range = "Age range";
-      $scope.indicators = Object.keys(data.pathology.outcomes);
-      $scope.filters = [];
+      $http({
+        method: 'GET',
+        url: 'http://iecsmapa.apidone.com/pathologies?id=' + $routeParams['pathology']
+      }).
+      success(function (data1, status1, header1, config1){
+        $scope.studies = data;  
+        $scope.pathology = data1[0];
+        console.log(data1)
+        var COUNTRY_CODES = {'Argentina': 'ar', 'Brasil': 'br', 'Chile': 'cl', 'Colombia': 'co', 'Cuba': 'cu', 'Ecuador': 'ec', 'Guatemala': 'gt', 'México': 'mx', 'Panamá': 'pa', 'Paraguay': 'py', 'Perú': 'pe', 'Rep. Dominicana': 'do', 'Uruguay': 'uy', 'Venezuela': 've'};
+        for(var study in data){
+          $scope.studies[study]['year'] in self.years? self.years[$scope.studies[study]['year']].push(study): self.years[$scope.studies[study]['year']] = [study];
+          $scope.studies[study]['country'] in self.countries? self.countries[$scope.studies[study]['country']].push(study): self.countries[$scope.studies[study]['country']] = [study];
+          $scope.studies[study]['Age Range'] in self.age_ranges? self.age_ranges[$scope.studies[study]['Age Range']].push(study): self.age_ranges[$scope.studies[study]['Age Range']] = [study];
+        }
+        for(var i in self.years){
+          $scope.data.year.push({'name': i, 'studies': self.years[i], 'checked': true});
+        }
+        for(var i in self.countries){
+          $scope.data.country.push({'name': i, 'studies': self.countries[i], 'code': COUNTRY_CODES[i]});
+        }
+        for(var i in self.age_ranges){
+          $scope.data.age_range.push({'name': i, 'studies': self.age_ranges[i]});
+        }
+        $scope.age_range = "Age range";
+        $scope.indicators = Object.keys($scope.pathology.outcomes);
+        $scope.filters = [];  
+      })
     }).
     error(function (data, status, headers, config) {
       $scope.years = [];

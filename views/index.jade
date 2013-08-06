@@ -6,10 +6,10 @@ block body
       div.navbar-inner
         div.container
           img(src="img/MAPA_logo.png")
-          img.pull-right(src="img/logo_iecs.png")
+          img.pull-right(src="img/iecs.png")
           ul.menu
             li(ng-repeat="pathology in pathologies")
-              a(href='/pathology/{{pathology.pathology}}') {{pathology.display_name}}
+              a(href='/pathology/{{pathology.id}}') {{pathology.display_name}}
 
     div(ng-view)
 

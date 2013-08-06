@@ -25,11 +25,12 @@ angular.module('mapa.filters', []).
               measured += value;
     			}
           var participants = studies[study];
-          angular.forEach(pathology.outcomes[outcome]['denom'].split('.'), function(key){
+          var denom = pathology.outcomes[outcome]['denom'];
+          angular.forEach(denom.split('.'), function(key){
             participants = participants[key];
           });
           participants = parseInt(participants);
-    			if(measured && !isNaN(participants) && participants){
+    			if(measured && (denom == 'median' || (!isNaN(participants) && participants))){
     				measured_studies.push(studies[study]);
     			}
     		}

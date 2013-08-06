@@ -45,7 +45,7 @@ section.section-content(ng-controller="Pathology")
 	div.content
 		div.widget
 			div.widget-header
-				ul.nav.nav-tabs
+				ul.nav.nav-tabs(style="border-bottom:none")
 					li(ng-class="{active:!show_mapa}") 
 						a(ng-click="show_mapa=false") Tabla
 					li(ng-class="{active:show_mapa}")
@@ -75,4 +75,15 @@ section.section-content(ng-controller="Pathology")
 						d3.xml("img/latinamerica.svg", "image/svg+xml", function(xml) {
 							$(xml.documentElement).attr('width', 370).attr('height', 400);
 							$("#mapa").append(xml.documentElement);
+							d3.select("svg").append('rect').attr('style', 'fill:#00688B').attr('x', 100).attr('y', 1300).attr('width',100).attr('height', 100);
+							d3.select("svg").append('rect').attr('style', 'fill:#50A6C2').attr('x', 100).attr('y', 1500).attr('width',100).attr('height', 100);
+							d3.select("svg").append('rect').attr('style', 'fill:#B2DFEE').attr('x', 100).attr('y', 1700).attr('width',100).attr('height', 100);
+							d3.select("svg").append('rect').attr('style', 'fill:lightgrey').attr('x', 100).attr('y', 1900).attr('width',100).attr('height', 100);
+							d3.select("svg").append('rect').attr('style', 'fill:#838B8B').attr('x', 100).attr('y', 2100).attr('width',100).attr('height', 100);
+							d3.select("svg").append('text').attr('x', 250).attr('y', 1380).attr('font-size', '80px').text("75 - 100");
+							d3.select("svg").append('text').attr('x', 250).attr('y', 1580).attr('font-size', '80px').text("50 - 75");
+							d3.select("svg").append('text').attr('x', 250).attr('y', 1780).attr('font-size', '80px').text("25 - 50");
+							d3.select("svg").append('text').attr('x', 250).attr('y', 1980).attr('font-size', '80px').text("0 - 25");
+							d3.select("svg").append('text').attr('x', 250).attr('y', 2180).attr('font-size', '80px').text("Sin datos");
 						});
+						

@@ -1,31 +1,31 @@
 [{
-	"pathology": "NAC",
-	"display_name": "NAC",
-	"outcomes": {
-		"serotipo": {
-			"denom": "Outcomes.etiologia.S pneumoniae",
-			"options": [{"name": "s14"}, {"name": "s18c"}, {"name": "s1"}, {"name": "s6B"}, {"name": "s5"}, {"name": "s9V"}, {"name": "s12F"}, {"name": "s7F"}, {"name": "sNT"}, {"name": "s19F"}, {"name": "s6A"}, {"name": "s23F"}, {"name": "s4"}, {"name": "s19A"}, {"name": "s33F"}, {"name": "s3"}, {"name": "s15C"}, {"name": "sOtro"}],
-			"display_name": "Serotipo"
-		},
-		"etiologia": {
-			"denom": "N con NAC",
-			"options": [{"name": "No growth"}, {"name": "S pneumoniae"}, {"name": "H Influenzae B"}, {"name": "H Influenzae (non-spec)"}, {"name": "M catarrhalis"}, {"name": "M pneumoniae"}, {"name": "C pneumoniae"}, {"name": "C trachomatis"}, {"name": "T pallidum"}, {"name": "M hominis"}, {"name": "U urealyticum"}, {"name": "S aureus"}, {"name": "St pyogenes"}, {"name": "St alpha"}, {"name": "P aeruginosa"}, {"name": "Other bact"}, {"name": "Co-infection Bacterial"}],
-			"display_name": "Etiología"
-		},
-		"death": {
-			"denom": "N con NAC",
-			"options": [{"name": "death"}],
-			"display_name": "Mortalidad"
-		},
-		"length_of_s": {
-			"denom": "studies_count",
-			"options": [{"name": "LOS general"}],
-			"display_name": "Tiempo de internación"
-		},
-		"incidencia": {
-			"denom": "base_pop",
-			"options": [{"name": "Duración"}, {"name": "Duración en años"}, {"name": "N con NAC anual"}],
-			"display_name": "Incidencia"
-		}
-	}
+  "id": "NAC",
+  "display_name": "NAC",
+  "outcomes": {
+    "serotipo": {
+      "denom": "Outcomes.etiologia.S pneumoniae",
+      "options": [{"name": "s14"}, {"name": "s18c"}, {"name": "s1"}, {"name": "s6B"}, {"name": "s5"}, {"name": "s9V"}, {"name": "s12F"}, {"name": "s7F"}, {"name": "sNT"}, {"name": "s19F"}, {"name": "s6A"}, {"name": "s23F"}, {"name": "s4"}, {"name": "s19A"}, {"name": "s33F"}, {"name": "s3"}, {"name": "s15C"}, {"name": "sOtro"}],
+      "display_name": "Serotipo"
+    },
+    "etiologia": {
+      "denom": "N con NAC",
+      "options": [{"name": "No growth"}, {"name": "S pneumoniae"}, {"name": "H Influenzae B"}, {"name": "H Influenzae (non-spec)"}, {"name": "M catarrhalis"}, {"name": "M pneumoniae"}, {"name": "C pneumoniae"}, {"name": "C trachomatis"}, {"name": "T pallidum"}, {"name": "M hominis"}, {"name": "U urealyticum"}, {"name": "S aureus"}, {"name": "St pyogenes"}, {"name": "St alpha"}, {"name": "P aeruginosa"}, {"name": "Other bact"}, {"name": "Co-infection Bacterial"}],
+      "display_name": "Etiología"
+    },
+    "death": {
+      "denom": "N con NAC",
+      "options": [{"name": "death"}],
+      "display_name": "Mortalidad"
+    },
+    "length_of_s": {
+      "denom": "median",
+      "options": [{"name": "LOS general"}],
+      "display_name": "Tiempo de internación"
+    },
+    "incidencia": {
+      "denom": "base_pop",
+      "options": [{"name": "Duración"}, {"name": "Duración en años"}, {"name": "N con NAC anual"}],
+      "display_name": "Incidencia"
+    }
+  }
 }]

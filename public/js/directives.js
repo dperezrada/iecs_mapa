@@ -26,6 +26,7 @@ angular.module('mapa.directives', []).
       var cell = function (){
         var content = {'participants': 0, 'incidence': 0, 'w': 0, 'xw': 0, 'count': 0, 'ci_l': 0, 'ci_u': 0};
         var active_filter = attrs.activeFilter;
+        var incidences = [];
         if(active_filter){
           var pathology = $.parseJSON(attrs.pathology);
           var studies = $.parseJSON(attrs.studies);
@@ -44,7 +45,10 @@ angular.module('mapa.directives', []).
             var incidence = parseInt(studies[i]['Outcomes'][active_filter][selected_option]);
             if(!isNaN(participants)) content['participants'] += participants;
             else participants = 0;
-            if(!isNaN(incidence)) content['incidence'] += incidence;
+            if(!isNaN(incidence)){
+              incidences.push(incidence);
+              content['incidence'] += incidence;
+            } 
             else incidence = 0;
             var x = Math.asin(Math.sqrt(incidence/(participants + 1.0))) + Math.asin(Math.sqrt((incidence + 1.0)/(participants + 1.0)));
             var se = Math.sqrt(1.0/(participants + 1.0));
@@ -60,6 +64,7 @@ angular.module('mapa.directives', []).
           content['ci_u'] = 100.0 * Math.pow(Math.sin(ul/2.0), 2);
           content['incidence'] = 100.0 * Math.pow(Math.sin(coef/2.0), 2);
           content['count'] = studies.length;
+          content['median'] = incidences.sort()[Math.floor(incidences/2 - 1)];
         }
         elm.html("<table><tr>"+
                     "<td>" + content['participants'] + "</td>" +
