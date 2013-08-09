@@ -10,7 +10,6 @@ angular.module('mapa.controllers', []).
       url: 'http://iecsmapa.apidone.com/pathologies'
     }).
     success(function (data, status, headers, config) {
-      console.log(data)
       $scope.pathologies = data;
     }).
     error(function (data, status, headers, config) {
@@ -39,7 +38,6 @@ angular.module('mapa.controllers', []).
       success(function (data1, status1, header1, config1){
         $scope.studies = data;  
         $scope.pathology = data1[0];
-        console.log(data1)
         var COUNTRY_CODES = {'Argentina': 'ar', 'Brasil': 'br', 'Chile': 'cl', 'Colombia': 'co', 'Cuba': 'cu', 'Ecuador': 'ec', 'Guatemala': 'gt', 'México': 'mx', 'Panamá': 'pa', 'Paraguay': 'py', 'Perú': 'pe', 'Rep. Dominicana': 'do', 'Uruguay': 'uy', 'Venezuela': 've'};
         for(var study in data){
           $scope.studies[study]['year'] in self.years? self.years[$scope.studies[study]['year']].push(study): self.years[$scope.studies[study]['year']] = [study];
@@ -63,33 +61,35 @@ angular.module('mapa.controllers', []).
     error(function (data, status, headers, config) {
       $scope.years = [];
     });
-    $scope.changeYear = function (index){
-      var years = angular.fromJson(angular.toJson($scope.data.year));
-      for(var i in years[index].studies){
-        if(!years[index].checked){
-          for(var j in $scope.data.country){
-            var ind = $scope.data.country[j].studies.indexOf(years[index].studies[i]);
-            if(ind >= 0){
-              $scope.data.country[j].studies.splice(ind, 1);
-              if($scope.data.country[j].studies.length == 0){
-                $scope.data.country[j].checked = false;
+    $scope.changeYear = function (){
+      angular.forEach($scope.data.year, function(year){
+        for(var i in year.studies){
+          if(!year.checked){
+            for(var j in $scope.data.country){
+              var ind = $scope.data.country[j].studies.indexOf(year.studies[i]);
+              if(ind >= 0){
+                $scope.data.country[j].studies.splice(ind, 1);
+                // if($scope.data.country[j].studies.length == 0){
+                //   $scope.data.country[j].checked = false;
+                // }
+              }
+            }
+          }
+          else{
+            var country = $scope.studies[year.studies[i]]['country'];
+            for(var j in $scope.data.country){
+              if($scope.data.country[j].name == country){
+                if($scope.data.country[j].studies.indexOf(year.studies[i]) < 0){
+                  $scope.data.country[j].studies.push(year.studies[i]);
+                  break;
+                }
               }
             }
           }
         }
-        else{
-          var country = $scope.studies[years[index].studies[i]]['country'];
-          for(var j in $scope.data.country){
-            if($scope.data.country[j].name == country){
-              if($scope.data.country[j].studies.indexOf(years[index].studies[i]) < 0){
-                $scope.data.country[j].studies.push(years[index].studies[i]);
-                break;
-              }
-            }
-          }
-        }
-      }
+      });
     };
+    $scope.$watch('data.year', $scope.changeYear, true);
     $scope.selectRange = function (range){
       $scope.age_range = range.age_range;
     }
@@ -128,6 +128,7 @@ angular.module('mapa.controllers', []).
         $scope.table[prev_pos] = '';
       }
     }
+    $('body').mousedown(function(){$('div.popover').remove()});
 
   }).
   controller('MyCtrl2', function ($scope) {
